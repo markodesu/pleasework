@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Variables Example</title>
+  <style>
+    :root {
+      --primary-color: #4caf50;
+      --secondary-color: #f44336;
+    }
+    body {
+      background-color: var(--primary-color);
+      color: white;
+      font-family: Arial, sans-serif;
+    }
+    .secondary {
+      color: var(--secondary-color);
+    }
+  </style>
+</head>
+<body>
+<h1>CSS Variables Example</h1>
+<p>This is a paragraph using the primary color.</p>
+<p class="secondary">This paragraph uses the secondary color.</p>
+</body>
+</html>

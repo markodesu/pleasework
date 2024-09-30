@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Card Component Example</title>
+  <style>
+    .card {
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      max-width: 300px;
+      margin: 20px auto;
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-10px);
+    }
+    .card img {
+      width: 100%;
+      border-radius: 10px 10px 0 0;
+    }
+    .card h2 {
+      font-size: 1.5em;
+      margin: 15px 0;
+    }
+  </style>
+</head>
+<body>
+<h1>Card Component Example</h1>
+<div class="card">
+  <img src="https://via.placeholder.com/300" alt="Sample Image">
+  <h2>Card Title</h2>
+  <p>This is a card component with a shadow, padding, rounded corners, and a hover effect.</p>
+</div>
+</body>
+</html>
