@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>:before Pseudo-Element Example</title>
+  <style>
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    li::before {
+      content: "✔️ ";
+      color: green;
+    }
+  </style>
+</head>
+<body>
+<h1>Custom List with :before Pseudo-Element</h1>
+<ul>
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
+</ul>
+</body>
+</html>
